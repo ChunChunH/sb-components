@@ -7,3 +7,4 @@ export interface PageProps {
     onCreateAccount: () => void;
 }
 export declare const Page: ({ user, onLogin, onLogout, onCreateAccount }: PageProps) => JSX.Element;
+export default Page;
